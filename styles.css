@@ -150,6 +150,7 @@ hr {
   .card {
     flex-direction: column;
     gap: 10em;
+    margin-top: 115px;
     width: 325px;
     height: auto;
   }

@@ -37,7 +37,7 @@ Desktop active:
 
 Desktop open option:
 
-![](./solution/dekstop-active.png)
+![](./solution/desktop-open.png)
 
 Mobile:
 
@@ -47,7 +47,7 @@ Mobile:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://markvanweersch.github.io/faq-accordion-card/)
 
 ## My process
 
