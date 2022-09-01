@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="./accordion.js"></script>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+
+  <div class="card">
+
+    <img id="box-image" src="./images/illustration-box-desktop.svg" alt="">
+
+    <div class="image-container">
+      <picture id="bg-pattern">
+        <source media="(min-width: 800px)" srcset="./images/bg-pattern-desktop.svg">
+        <img src=".\images\bg-pattern-mobile.svg" alt="">
+      </picture>
+      <picture id="woman-online">
+        <source media="(min-width: 800px)" srcset="./images/illustration-woman-online-desktop.svg">
+        <img src="./images/illustration-woman-online-mobile.svg" alt="">
+      </picture>
+    </div>
+
+    <main>
+      <h1>FAQ</h1>
+
+      <div class="questions-container">
+
+        <section class="question-block">
+          <div class="question">
+            <h2 class="question-title">How many team members can I invite?</h2>
+            <img src="./images/icon-arrow-down.svg" alt="">
+            <p class="hidden">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+          </div>
+        </section>
+        <hr>
+
+        <section class="question-block">
+          <div class="question">
+            <h2 class="question-title">What is the maximum file upload size?</h2>
+            <img src="./images/icon-arrow-down.svg" alt="">
+            <p class="hidden">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </section>
+        <hr>
+
+        <section class="question-block">
+          <div class="question">
+            <h2 class="question-title">How do I reset my password?</h2>
+            <img src="./images/icon-arrow-down.svg" alt="">
+            <p class="hidden">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </div>
+        </section>
+        <hr>
+
+        <section class="question-block">
+          <div class="question">
+            <h2 class="question-title">Can I cancel my subscription?</h2>
+            <img src="./images/icon-arrow-down.svg" alt="">
+            <p class="hidden">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </section>
+        <hr>
+
+        <section class="question-block">
+          <div class="question">
+            <h2 class="question-title">Do you provide additional support?</h2>
+            <img src="./images/icon-arrow-down.svg" alt="">
+            <p class="hidden">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </section>
+        <hr>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+</body>
+</html>
