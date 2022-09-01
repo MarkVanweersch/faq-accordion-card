@@ -46,7 +46,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontendMentor.io](https://www.frontendmentor.io/solutions/faq-accordion-card-made-with-js-grid-and-position-absolute-y-o-LfGzFf)
 - Live Site URL: [GitHub Pages](https://markvanweersch.github.io/faq-accordion-card/)
 
 ## My process
