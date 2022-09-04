@@ -31,6 +31,7 @@ html {
 body, 
 h1, 
 h2, 
+figure, 
 p {
   padding: 0;
   margin: 0;
@@ -165,6 +166,7 @@ hr {
   }
 
   .image-container {
+    position: absolute;
     width: 100%;
     height: auto;
     overflow: visible;
